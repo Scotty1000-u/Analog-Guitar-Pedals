@@ -1,0 +1,30 @@
+This was designed off of schematics I found to get a better feeling of KiCad and LTSpice. This is no way optimized at all there isn't even switch and haha more or less proof of concept and for my personal enjoyment. It's not pretty but it works
+
+Power-section
+D1: Reverse Polarity protection
+C1: Bulk Capacitor
+R1 & R2: Voltage divider creating 4.5V
+C2: Coupling Capacitor to filter bias noise
+
+Main Circuit
+R3 & R4: R3 Acts as a bias resistors. R3 acts as pull down resistor and R4 pulls up setting impedance at 5 mega ohms. 
+C3: Coupling input Capacitor  
+R5: Current limiting resistor
+U1:Opamp(TL071)
+C4: Feedback Capacitor 
+R6, R8, R7: R6 and R8 Helps set gain with R7 supposed to represent a Gain potentiometer 
+C6:Output coupling capacitor 
+R9: Current limiting resistor to set output impedance
+R10: Pull down resistor that's a stand in for 10k volume pot 
+
+Non- Switching 6.3mm jack- For first design and simplicity sake the NJ2FD-V was chosen. The down side is that pedal needs to be turned off completely and interference when disconnected.
+
+(Goals after: 
+1. try to etch a pcb design my self 
+2. Get better at board layout and routing
+3. Make more of my own designs)
+
+Things I could have done better:
+1. Board routing and layout very convoluted with windy and long traces.******!!!!
+2. I should play with the Via sizes. .2mm is fine since it's low voltage and no highspeed interfaces but it's better to be safe than sorry
+3. Figure out layering better. 2 layers were fine but it would be nice to have a vcc layer in future more complicated projects.

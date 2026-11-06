@@ -1,0 +1,21 @@
+LTspice 26.1.1 for Windows
+Circuit: C:\Users\Gatto\OneDrive\Attachments\Desktop\Projects\Boost Pedal.net
+Start Time: Fri Nov  6 19:53:29 2026
+solver = Normal
+Maximum thread count: 24
+tnom = 27
+temp = 27
+method = trap
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+Total elapsed time: 0.080 seconds.
+Total iterations: 3878
+
+Files loaded:
+C:\Users\Gatto\OneDrive\Attachments\Desktop\Projects\Boost Pedal.net
+C:\Users\Gatto\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\Gatto\OneDrive\Documents\LTspice\TL072.301
+
