@@ -1,5 +1,5 @@
 # Analog-Guitar-Pedals
-Transcriptions of Notes/Designs for since starting to design guitar pedals
+Transcriptions of Notes/Designs for since starting to design guitar pedals. I just add my random finished pedals to this repo.
 
 ## Boost Pedal 
 #### Schematics: 
